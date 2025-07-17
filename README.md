@@ -16,12 +16,12 @@ Users can sort notes by **grade level** and **subject**, making it easy to find 
 ---
 
 ## 📁 Project Structure
-project-folder/
-│
-├── index.html # Main HTML file
-├── styles.css # CSS styling
-├── script.js # JavaScript for filtering logic
-└── /img/ # Folder containing card images
+project-folder/  
+│  
+├── index.html # Main HTML file  
+├── styles.css # CSS styling  
+├── script.js # JavaScript for filtering logic  
+└── /img/ # Folder containing card images  
 
 ---
 
@@ -42,8 +42,8 @@ Open index.html in your browser.
 - JavaScript (Vanilla)
 
 ## ✍️ Author
-Charlotte Wong
-GitHub: @cwsengai
+Charlotte Wong  
+GitHub: [@cwsengai]
 
 
 
