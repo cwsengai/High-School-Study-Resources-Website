@@ -7,11 +7,11 @@ Users can sort notes by **grade level** and **subject**, making it easy to find 
 
 ## 🔍 Features
 
-- ✅ Filter notes by grade (e.g., Grade 9–12)
-- ✅ Filter notes by subject (e.g., Math, Chemistry, Biology, etc.)
-- ✅ "Select All" toggle functionality for grade and subject filters
-- ✅ Responsive and user-friendly card layout
-- ✅ Clean and lightweight design using vanilla HTML, CSS, and JavaScript
+- Filter notes by grade (e.g., Grade 9–12)
+- Filter notes by subject (e.g., Math, Chemistry, Biology, etc.)
+- "Select All" toggle functionality for grade and subject filters
+- Responsive and user-friendly card layout
+- Clean and lightweight design using vanilla HTML, CSS, and JavaScript
 
 ---
 
