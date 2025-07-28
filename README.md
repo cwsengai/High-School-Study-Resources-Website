@@ -21,9 +21,9 @@ project-folder/
 ├── index.html # Main HTML file  
 ├── styles.css # CSS styling  
 └──  
-  ├── studyresources.html  
-  ├── contact.html  
-  ├── script.js # JavaScript for filtering logic    
+    ├── studyresources.html  
+    ├── contact.html  
+    ├── script.js # JavaScript for filtering logic    
 └── /img/ # Folder containing card images  
 
 ---
