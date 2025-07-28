@@ -16,14 +16,14 @@ Users can sort notes by **grade level** and **subject**, making it easy to find 
 ---
 
 ## 📁 Project Structure
-project-folder/
-├── index.html
-├── styles.css
-├── index/
-│   ├── studyresources.html
-│   ├── contact.html
-│   └── script.js
-└── img/
+project-folder/  
+├── index.html  
+├── styles.css  
+├── index/  
+│   ├── studyresources.html  
+│   ├── contact.html  
+│   └── script.js  
+└── img/  
 
 ---
 
