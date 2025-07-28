@@ -13,6 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   //nav bar study resources buttons
   const navbarfilterButtons = document.querySelectorAll('.filter-grade');
+  const navbarfilterall = document.querySelector('.filter-all')
+
+  let gradeselected = null;
+  let allgradeselected = false;
+
 
   navbarfilterButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {
@@ -22,6 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
       filterCards();
       gradeselected = null;
     });
+  });
+
+  navbarfilterall.addEventListener('click', ()=>{
+    allgradeselected = true;
+    filterCards();
+    allgradeselected = false;
   });
 
   // filter checkbox event listeners
@@ -75,11 +86,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const selectedSubjects = [];
     const searchTerm = searchInput.value.toLowerCase(); // NEW: Get search term
 
-    //nav bar selected grades
-    if(gradeselected){
-      selectedGrades.push(gradeselected);
-    }
-
     // Get selected grades
     if (!allGradeCheckbox.checked) {
       gradeCheckboxes.forEach(cb => {
@@ -96,6 +102,15 @@ document.addEventListener("DOMContentLoaded", function () {
           selectedSubjects.push(cb.parentElement.textContent.trim());
         }
       });
+    }
+
+    //nav bar selected grades
+    if(gradeselected){
+      selectedGrades.push(gradeselected);
+    }
+
+    if(allgradeselected){
+      selectedGrades.push("10", "11", "12");
     }
 
     cards.forEach(card => {
