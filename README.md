@@ -30,7 +30,7 @@ project-folder/
 ## 🚀 Getting Started
 
 ### 1. Clone the repository:
-git clone https://github.com/your-username/highschool-course-notes-site.git
+git clone https://github.com/cwsengai/highschool-course-notes-site.git
 
 ### 2. Open the project:
 cd highschool-course-notes-site
